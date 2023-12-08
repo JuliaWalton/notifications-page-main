@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- style sheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+<body>
+  <article class="card">
+    <!-- header -->
+    <div class="header">
+      <div class="header-container">
+        <h2 class="header-title">Notifications</h2>
+        <div class="header-notifications" data-notification="3"></div>
+      </div>
+      <button class="header-notifications-clear">Mark all as read</button>
+    </div>
+    <!-- main -->
+    <ul id="activity" class="activity">
+      <li class="activity-item" data-read="unread">
+        <img src="assets/images/avatar-mark-webber.webp" width="40px" height="40px" alt="">
+        <p class="activity-message"><b>Mark Webber</b> reacted to your recent post <a a href="#" class="post">My first tournament today!</a>
+          <span class="unread-dot"></span>
+        <small>1m ago</small></p>
+      </li>
+      <li class="activity-item" data-read="unread">
+        <img src="assets/images/avatar-angela-gray.webp" width="40px" height="40px" alt="">
+        <p class="activity-message"><b>Angela Gray</b> followed you
+          <span class="unread-dot"></span>
+          <small>5m ago</small></p>
+        
+      </li>
+      <li class="activity-item" data-read="unread">
+        <img src="assets/images/avatar-jacob-thompson.webp" width="40px" height="40px" alt="">
+        <p class="activity-message"><b>Jacob Thompson</b> has joined your group <a href="#" class="group">Chess Club</a> 
+          <span class="unread-dot"></span>
+          <small>1 day ago</small></p>
+      </li>
+      <li class="activity-item" data-read="read">
+        <img src="assets/images/avatar-rizky-hasanuddin.webp" width="40px" height="40px" alt="">
+        <p class="activity-message"><b>Rizky Hasanuddin</b> sent you a private message
+          <small>5 days ago</small></p>
+        <p class="activity-pm">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+      </li>
+      <li class="activity-item" data-read="read">
+        <img src="assets/images/avatar-kimberly-smith.webp" width="40px" height="40px" alt="">
+        <p class="activity-message"><b>Kimberly Smith</b> commented on your picture
+          <small>1 week ago</small></p>
+        <img src="assets/images/image-chess.webp" width="40px" height="40px" alt="">
+      </li>
+      <li class="activity-item" data-read="read">
+        <img src="assets/images/avatar-nathan-peterson.webp" width="40px" height="40px" alt="">
+        <p class="activity-message"><b>Nathan Peterson</b> reacted to your recent post <a href="#" class="post">5 end-game strategies to increase your win rate</a>
+          <small>2 weeks ago</small></p>
+      </li>
+      <li class="activity-item" data-read="read">
+        <img src="assets/images/avatar-mark-webber.webp" width="40px" height="40px" alt="">
+        <p class="activity-message"><b>Anna Kim</b> left the group <a href="#" class="group">Chess Club</a>
+        <small>2 weeks ago</small></p>
+      </li>
+    </ul>
+  </article>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="script.js"></script>
+</body>
+</html>

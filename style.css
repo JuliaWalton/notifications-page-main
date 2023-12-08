@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+} */
+
+body {
+    background-color: hsl(210, 60%, 98%);
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.card {
+    background-color: white;
+    max-width: 700px; 
+    padding: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-notifications {
+    background-color: hsl(224, 21%, 14%);
+    color: white;
+    padding: .1rem .65rem;
+    border-radius: .5rem;
+}
+
+.header-notifications-clear:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.activity {
+    margin-top: 2rem;
+    display: grid;
+    list-style-type: none;
+    gap: .5rem;
+}
+
+.activity-item {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto 1fr;
+    /* background-color: hsla(211, 68%, 94%, 0.726); */
+    border-radius: .5rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.activity-item small {
+    display: block;
+}
+
+.activity-item .activity-pm {
+    grid-column: 2/3;
+} 
+
+.activity-item img:nth-of-type(2) {
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+
+.activity-pm {
+    background-color: white;
+    padding: 1rem;
+    border: .5px solid rgba(128, 128, 128, 0.377);
+    border-radius: .4rem;
+}
+
+.unread-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: .3rem;
+    background-color: red;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.activity-message b {
+    font-weight: 700;
+}
+
+.activity-item[data-read="read"] {
+    background-color: white;
+}
+
+.activity-item[data-read="unread"] {
+    background-color: hsla(211, 68%, 94%, 0.726);;
+}
