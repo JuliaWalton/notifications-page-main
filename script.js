@@ -16,7 +16,6 @@ function updateNotifications() {
             notificationsCounter.innerHTML = count;
 
                 item.addEventListener('click', () => {
-                    // console.log(item);
                     item.setAttribute('data-read','read');
                     redDot.style.display = "none";
                     count -= 1;
