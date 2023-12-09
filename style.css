@@ -4,15 +4,6 @@
     padding: 0;
 }
 
-/* img,
-picture,
-video,
-canvas,
-svg {
-    display: block;
-    max-width: 100%;
-} */
-
 body {
     background-color: hsl(210, 60%, 98%);
     display: grid;
@@ -38,7 +29,7 @@ body {
     gap: 1rem;
 }
 
-.header-notifications {
+.header-notifications-counter {
     background-color: hsl(224, 21%, 14%);
     color: white;
     padding: .1rem .65rem;
