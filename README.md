@@ -4,7 +4,9 @@
 
 ## Welcome! 👋
 
-Thanks for checking out my solution for this challenge! This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC).
+Thanks for checking out my solution for this challenge!
+
+This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC).
 
 ## Table of contents
 
@@ -29,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://juliawalton.github.io/notifications-page-main/)
+- Live Site URL: [https://juliawalton.github.io/notifications-page-main/](https://juliawalton.github.io/notifications-page-main/)
 
 ## My process
 
