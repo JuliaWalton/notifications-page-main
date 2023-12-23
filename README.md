@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-Personally, the key learning experience from this project was being able to practice dynamically setting the notification count in response to the "read" or "unread" state of the notifications.
+A key learning feature of this project was being able to practice dynamically setting the notification count in response to the "read" or "unread" state of the notifications.
 
 ```js
 if (attr === "unread") {
@@ -63,5 +63,5 @@ if (attr === "unread") {
 
 ## Author
 
-- Website - [Julia Walton](https://juliawalton.github.io/portfolio/)
-- Frontend Mentor - [@hi-its-julia](https://www.frontendmentor.io/profile/hi-its-julia)
+- Website - [Julia's Portfolio](https://juliawalton.github.io/portfolio/)
+- LinkedIn - [Julia Walton](https://www.linkedin.com/in/juliawalton/)
